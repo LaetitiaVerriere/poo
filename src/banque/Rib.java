@@ -1,5 +1,5 @@
 package banque;
-
+import javax.swing.JOptionPane;
 
 public class Rib {
 
@@ -8,5 +8,8 @@ public class Rib {
 		 public void afficher( String message){
 			 System.out.println(message);
 					 }
+		 public void afficherBoiteDialogue(String message) {
+			 JOptionPane.showMessageDialog(null, message);
+		 }
 
 }
